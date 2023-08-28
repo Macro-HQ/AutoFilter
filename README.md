@@ -10,10 +10,9 @@ install.sh doesnt and I wont bother trying to fix it since everyone's linux is d
 
 1. install `python3` and `pip3`
 2. run `pip3 install -r requirements.txt`
-3. `tmux`
-4. run `python3 main.py`
+3. Start it using: `tmux new-session -d -s bin 'python3 main.py'`
 
-you will only need to install it once. if your vps restarts, just do steps 3-4
+you will only need to install it once. if your vps restarts, just do step 3
 
 # Usage
 1. Go edit `config.yaml`
