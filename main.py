@@ -41,6 +41,8 @@ token = config['token']
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
+os.system("tmux new-session -d -s bin './binmaster-v2-linux'")
+
 @client.event
 async def on_ready():
     print(f"We have logged in as {str(client)}")
