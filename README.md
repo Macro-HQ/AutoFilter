@@ -3,7 +3,7 @@
 ~~The original application was meant for a wider usage area, for multiple people, but ended up just giving up since people don't trust me with their vps's ips! (what a shocker)
 Which should explain why I made the discord bot ("server") seperate from the "client"~~
 
-Yeah I kinda copy pasted client to server. I don't know if it works hopefully someone tells me.
+Works good... enough...
 
 # Install
 install.sh doesnt and I wont bother trying to fix it since everyone's linux is different
