@@ -75,9 +75,10 @@ Visit the [Discord Developer Portal](https://discord.com/developers/applications
 2. Install `python3` alongwith `pip3`
 3. Once installed, `git clone https://github.com/Macro-HQ/AutoFilter/`
 4. CD into the folder `cd AutoFilter-main`
-5. Install discord.py with `pip3 install discord.py`
-6. Give permission to the `start.sh` file with `chmod +x start.sh`
-7. Start the AutoFilter with `./start.sh`
+5. Move everything into your binmaster folder `mv * binmaster-folder`
+6. Install discord.py with `pip3 install discord.py`
+7. Give permission to the `start.sh` file with `chmod +x start.sh`
+8. Start the AutoFilter with `./start.sh`
 
 # Contact
 If you have any suggestions or issues, create a issue on github or join our Discord [here](https://discord.gg/8FSJWpQBHk)! We are working on other things like slayer macro, auto dungeons!
