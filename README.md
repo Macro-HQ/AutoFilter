@@ -29,4 +29,4 @@ you will only need to install it once. if your vps restarts, just do step 3
 Start it using: `tmux new-session -d -s bin 'python3 main.py'`
 
 # Contact
-If you have any suggestions or issues, create a issue on github.
+If you have any suggestions or issues, create a issue on github or join our discord here.
