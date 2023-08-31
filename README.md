@@ -29,4 +29,4 @@ you will only need to install it once. if your vps restarts, just do step 3
 Start it using: `tmux new-session -d -s bin 'python3 main.py'`
 
 # Contact
-Just make an issue [here](https://github.com/wtfismyname69420/AutoFilter/issues)
+If you have any suggestions or issues, create a issue on github.
