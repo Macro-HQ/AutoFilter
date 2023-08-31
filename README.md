@@ -76,7 +76,7 @@ Visit the [Discord Developer Portal](https://discord.com/developers/applications
 3. Once installed, `git clone https://github.com/Macro-HQ/AutoFilter/`
 4. CD into the folder `cd AutoFilter-main`
 5. Move everything into your binmaster folder `mv * binmaster-folder`
-6. Install discord.py with `pip3 install discord.py`
+6. Install discord.py with `pip3 install discord.py` and requests with `pip3 install requests`
 7. Give permission to the `start.sh` file with `chmod +x start.sh`
 8. Start the AutoFilter with `./start.sh`
 
