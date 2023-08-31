@@ -68,7 +68,7 @@ Visit the [Discord Developer Portal](https://discord.com/developers/applications
 
 ![7](https://github.com/Macro-HQ/AutoFilter/assets/84185962/c662802f-a0f7-4d2c-8a72-1a59308b7bf4)
 
-13. Paste the URL into your browser
+13. Paste the URL into your browser and select your private server
 
 
 # Contact
