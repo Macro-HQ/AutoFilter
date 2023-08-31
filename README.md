@@ -5,16 +5,11 @@ Which should explain why I made the discord bot ("server") seperate from the "cl
 
 Works good... enough...
 
-# Install
-install.sh doesnt and I wont bother trying to fix it since everyone's linux is different
-
-1. install `python3` and `pip3`
-2. run `pip3 install -r requirements.txt`
-3. Start it using: `tmux new-session -d -s bin 'python3 main.py'`
-
-you will only need to install it once. if your vps restarts, just do step 3
-
 # Setup
+## For now, this only works on Linux! Windows support will be added later... maybe.
+
+## Discord Setup
+
 1. Create a private server
 
 ![1](https://github.com/Macro-HQ/AutoFilter/assets/84185962/5264e1ea-1474-4144-9704-6a5e69f29e6a)
@@ -70,6 +65,21 @@ Visit the [Discord Developer Portal](https://discord.com/developers/applications
 
 13. Paste the URL into your browser and select your private server
 
+14. Follow the config channel
+
+![1](https://github.com/Macro-HQ/AutoFilter/assets/84185962/fbd1a846-437e-4fa9-a8d9-42508a2054ad)
+
+![2](https://github.com/Macro-HQ/AutoFilter/assets/84185962/89485906-d156-4ff1-b9e5-fa32f0aa05bd)
+
+## Server Setup
+
+1. Google `how to install python3 for <your os>`
+2. Install `python3` alongwith `pip3`
+3. Once installed, `git clone https://github.com/Macro-HQ/AutoFilter/`
+4. CD into the folder `cd AutoFilter-main`
+5. Install discord.py with `pip3 install discord.py`
+6. Give permission to the `start.sh` file with `chmod +x start.sh`
+7. Start the AutoFilter with `./start.sh`
 
 # Contact
-If you have any suggestions or issues, create a issue on github or join our discord [here](https://discord.gg/8FSJWpQBHk).
+If you have any suggestions or issues, create a issue on github or join our Discord [here](https://discord.gg/8FSJWpQBHk)! We are working on other things like slayer macro, auto dungeons!
