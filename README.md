@@ -1,12 +1,10 @@
 # AutoFilter
 
-~~The original application was meant for a wider usage area, for multiple people, but ended up just giving up since people don't trust me with their vps's ips! (what a shocker)
-Which should explain why I made the discord bot ("server") seperate from the "client"~~
-
 Works good... enough...
 
 # Setup
-## For now, this only works on Linux! Windows support will be added later... maybe.
+
+### This currently only works on Linux! Windows support will be added... maybe.
 
 ## Discord Setup
 
