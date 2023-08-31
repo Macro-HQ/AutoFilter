@@ -80,5 +80,10 @@ Visit the [Discord Developer Portal](https://discord.com/developers/applications
 7. Give permission to the `start.sh` file with `chmod +x start.sh`
 8. Start the AutoFilter with `./start.sh`
 
+## Commands
+Start: `tmux new-session -d -s filter 'python3 main.py'`
+Stop binmaster: `tmux kill-session -t bin`
+Stop AutoFilter: `tmux kill-session -t filter`
+
 # Contact
 If you have any suggestions or issues, create a issue on github or join our Discord [here](https://discord.gg/8FSJWpQBHk)! We are working on other things like slayer macro, auto dungeons!
