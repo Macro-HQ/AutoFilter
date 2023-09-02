@@ -10,28 +10,29 @@ with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
 
 webhook_url = config['webhook_url']
+autofilter_version = "1.1"
 
 def filter_detected():
     json = {"content":None,"embeds":[{"title":"AutoFilter","description":"```A new filter has been detected!```",
-            "color":7132927,"footer":{"text":"AutoFilter v1.0"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
+            "color":7132927,"footer":{"text":f"AutoFilter v{autofilter_version}"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
     
     requests.post(webhook_url, json=json)
 
 def applying_filter():
     json = {"content":None,"embeds":[{"title":"AutoFilter","description":"```Applying new filter...```",
-            "color":16579653,"footer":{"text":"AutoFilter v1.0"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
+            "color":16579653,"footer":{"text":f"AutoFilter v{autofilter_version}"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
     
     requests.post(webhook_url, json=json)
 
 def applied_filter():
     json = {"content":None,"embeds":[{"title":"AutoFilter","description":"```Successfully applied new filter, restarting the bot now...```",
-            "color":7470149,"footer":{"text":"AutoFilter v1.0"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
+            "color":7470149,"footer":{"text":f"AutoFilter v{autofilter_version}"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
     
     requests.post(webhook_url, json=json)
 
 def success():
     json = {"content":None,"embeds":[{"title":"AutoFilter","description":"```All actions completed successfully, the bot is now running!```",
-            "color":7470149,"footer":{"text":"AutoFilter v1.0"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
+            "color":7470149,"footer":{"text":f"AutoFilter v{autofilter_version}"},"timestamp":str(datetime.now().isoformat())}],"attachments":[]}
     
     requests.post(webhook_url, json=json)
 
