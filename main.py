@@ -71,6 +71,11 @@ async def on_message(message):
                         print("error", e)
                         return ""
                     applied_filter()
+                print("Operation success")
+                time.sleep(2)
+                os.system("tmux new-session -d -s bin './binmaster-v2-linux'")
+                print("Started session")
+                success()
         else:
             try:
                 attachment_url = message.attachments[0].url
